@@ -7,4 +7,6 @@ class Blog < ApplicationRecord
 	friendly_id :title, :use => :history
 
 	validates_presence_of :title, :body
+
+	belongs_to :topic
 end
