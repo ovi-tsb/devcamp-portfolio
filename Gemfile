@@ -30,6 +30,8 @@ gem 'bootsnap', '>= 1.4.4', require: false
 
 gem 'friendly_id', '~> 5.4', '>= 5.4.2'
 
+gem 'devise', '~> 4.8'
+
 
 
 
