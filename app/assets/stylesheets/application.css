@@ -13,3 +13,16 @@
  *= require_tree .
  *= require_self
  */
+
+
+ model-viewer {width: 800px; height: 500px; margin:0, auto; color: black;
+ 	border: 1px solid blue; }
+ .d3d{
+ 	border: 1px solid red;
+ 	margin-top: 100px;
+ 	width: 500px;
+ 	height: 500px;
+ }
+ .d3d p{
+ 	color: black;
+ }
