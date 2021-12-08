@@ -34,7 +34,7 @@ gem 'devise', '~> 4.8'
 
 gem 'ostruct', '~> 0.5.0'
 
-
+gem 'bootstrap', '~> 5.1.3'
 
 
 
