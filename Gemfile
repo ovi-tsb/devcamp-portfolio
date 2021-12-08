@@ -33,7 +33,7 @@ gem 'friendly_id', '~> 5.4', '>= 5.4.2'
 gem 'devise', '~> 4.8'
 
 gem 'ostruct', '~> 0.5.0'
-gem 'pry', '~> 0.14.1'
+
 
 
 
@@ -41,6 +41,7 @@ gem 'pry', '~> 0.14.1'
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
+  gem 'pry-byebug', '~> 3.9'
 end
 
 group :development do
