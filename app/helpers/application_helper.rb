@@ -17,4 +17,8 @@ module ApplicationHelper
 		end 
 			
 	end
+
+	def copyright_generator
+		OviViewTool::Renderer.copyright 'Ovidiu Turcu', 'All rights reservedview_tool'
+	end
 end
