@@ -36,6 +36,8 @@ gem 'ostruct', '~> 0.5.0'
 
 gem 'bootstrap', '~> 5.1.3'
 
+gem 'petergate', '~> 3.0'
+
 
 
 group :development, :test do
