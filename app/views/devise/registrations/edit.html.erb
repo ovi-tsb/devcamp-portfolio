@@ -14,7 +14,7 @@
 
           <div class="form-group">
             <%= f.label :name %><br />
-            <%= f.text_field :name, class: 'form-control'%>
+            <%= f.text_field :name, class: 'form-control' %>
           </div>
 
           <% if devise_mapping.confirmable? && resource.pending_reconfirmation? %>
@@ -39,7 +39,7 @@
             <%= f.label :current_password %> <i>(we need your current password to confirm your changes)</i><br />
             <%= f.password_field :current_password, autocomplete: "current-password", class: 'form-control' %>
           </div>
-          <br>
+          
           <div class="form-group">
             <%= f.submit "Update", class: 'btn btn-primary' %>
           </div>
