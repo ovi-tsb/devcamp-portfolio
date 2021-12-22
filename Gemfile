@@ -38,6 +38,10 @@ gem 'bootstrap', '~> 5.1.3'
 
 gem 'petergate', '~> 3.0'
 
+gem 'font-awesome-rails', '~> 4.7', '>= 4.7.0.7'
+
+gem 'kaminari', '~> 1.2', '>= 1.2.1'
+
 
 
 group :development, :test do
