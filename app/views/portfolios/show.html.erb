@@ -1,18 +1,23 @@
-<%# binding.pry %>
+<div class="container">
+	<div class="row">
+		<div class="col">
+			<%= image_tag @portfolio_item.main_image if !@portfolio_item.main_image.nil? %>
+		</div>
+		<div class="col">
+			<h3><%= @portfolio_item.title %></h3>
+			<hr>
+			<h6><%= @portfolio_item.subtitle %></h6>
+			<p><%= @portfolio_item.body %></p>
+			<hr>
+			<h5>Technologies used</h5>
+			<% @portfolio_item.technologies.each do |t| %>
+				<p><%= t.name %></p>
+			<% end %>
 
-<h1>Show page</h1>
+			
+		</div>
+	</div>
+</div>
 
-<h3><%= @portfolio_item.title %></h3>
-<hr>
-<h6><%= @portfolio_item.subtitle %></h6>
-<p><%= @portfolio_item.body %></p>
-<%= image_tag @portfolio_item.main_image if !@portfolio_item.main_image.nil? %>
-
-<h3>Technologies used</h3>
-<% @portfolio_item.technologies.each do |t| %>
-	<p><%= t.name %></p>
-<% end %>
-
-<hr>
 
 
