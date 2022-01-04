@@ -14,11 +14,15 @@ import 'bootstrap/dist/js/bootstrap'
 import 'bootstrap/dist/css/bootstrap'
 
 
+import 'custom/html.sortable'
+
+
+
 import "@fortawesome/fontawesome-free/js/all";
 
 Rails.start()
 Turbolinks.start()
 ActiveStorage.start()
 
-
+//= require jquery-ui
 
