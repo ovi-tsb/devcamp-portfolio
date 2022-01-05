@@ -47,7 +47,7 @@ puts "5 Skills created"
 		injected humour, or randomised words which 
 		don't look even slightly believable.",
 		main_image: "https://via.placeholder.com/600x400.png?%20C/O%20https://placeholder.com/",
-		thumb_image: "https://via.placeholder.com/350x150.png?%20C/O%20https://placeholder.com/"
+		thumb_image: "https://via.placeholder.com/350x200.png?%20C/O%20https://placeholder.com/"
 		)
 end
 
@@ -61,7 +61,7 @@ end
 		injected humour, or randomised words which 
 		don't look even slightly believable.",
 		main_image: "https://via.placeholder.com/600x400.png?%20C/O%20https://placeholder.com/",
-		thumb_image: "https://via.placeholder.com/350x150.png?%20C/O%20https://placeholder.com/"
+		thumb_image: "https://via.placeholder.com/350x200.png?%20C/O%20https://placeholder.com/"
 		)
 end
 

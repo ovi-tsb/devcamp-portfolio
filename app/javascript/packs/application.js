@@ -14,11 +14,18 @@ import 'bootstrap/dist/js/bootstrap'
 import 'bootstrap/dist/css/bootstrap'
 
 
+
+import 'custom/html.sortable'
+import 'custom/portfolios.coffee'
+
 import "@fortawesome/fontawesome-free/js/all";
+
+require('jquery')
+require("jquery-ui")
 
 Rails.start()
 Turbolinks.start()
 ActiveStorage.start()
 
-
+//= require jquery-ui
 
