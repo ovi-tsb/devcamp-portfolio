@@ -1,5 +1,6 @@
 // alert("Hey there");
-
+  ////////// Convert coffee to js
+  // https://awsm-tools.com/code/coffee2js
 
 // ready = undefined
 // set_positions = undefined
