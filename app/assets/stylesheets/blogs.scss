@@ -160,9 +160,8 @@ h1, h2, h3, h4, h5, h6 {
 ///////////////  Gritter //////////////////////
 #gritter-notice-wrapper{
   position: absolute;
-  z-index:999;
-  margin-top: -97%;
-  margin-left: 75%;
+  top: 8%;
+  left: 75%;
 }
 .gritter-item-wrapper{
   margin: 4px 0px;
