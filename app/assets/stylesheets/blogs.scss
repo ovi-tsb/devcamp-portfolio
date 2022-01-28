@@ -3,6 +3,7 @@
 // You can use Sass (SCSS) here: https://sass-lang.com/
 // @import "bootstrap";
 
+
 .active {
   text-decoration: none;
 }
@@ -156,3 +157,32 @@ h1, h2, h3, h4, h5, h6 {
   margin-top: 25px;
 }
 
+///////////////  Gritter //////////////////////
+#gritter-notice-wrapper{
+  position: absolute;
+  z-index:999;
+  margin-top: -97%;
+  margin-left: 75%;
+}
+.gritter-item-wrapper{
+  margin: 4px 0px;
+}
+.gritter-close{
+  display: none;
+}
+.gritter-title{
+  color: #c9c9c9;
+  font-size: 1.4em;
+  text-decoration: underline;
+}
+.gritter-without-image {
+  background-color: #777777;
+  color: #fff;
+  padding-top: 10px;
+  border-radius: 5px;
+  text-align: center;
+  border: 1px solid white;
+  width: 250px;
+  margin-right: 20px;
+}
+///////////////  Gritter //////////////////////

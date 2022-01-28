@@ -19,7 +19,7 @@ module ApplicationHelper
 	end
 
 	def copyright_generator
-		OviViewTool::Renderer.copyright 'Ovidiu Turcu', 'All rights reservedview_tool'
+		OviViewTool::Renderer.copyright 'Ovidiu Turcu', 'All rights reserved'
 	end
 
 	def nav_items
@@ -69,5 +69,7 @@ module ApplicationHelper
 	def active? path
 		"active" if current_page? path
 	end
+
+
 
 end

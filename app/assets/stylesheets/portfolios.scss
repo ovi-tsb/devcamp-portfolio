@@ -52,3 +52,33 @@ footer p {
 .portfolio-container{
   padding-top: 30px;
 }
+
+///////////////  Gritter //////////////////////
+#gritter-notice-wrapper{
+  position: absolute;
+  z-index:999;
+  margin-top: -103%;
+  margin-left: 75%;
+}
+.gritter-item-wrapper{
+  margin: 4px 0px;
+}
+.gritter-close{
+  display: none;
+}
+.gritter-title{
+  color: #c9c9c9;
+  font-size: 1.4em;
+  text-decoration: underline;
+}
+.gritter-without-image {
+  background-color: #777777;
+  color: #fff;
+  padding-top: 10px;
+  border-radius: 5px;
+  text-align: center;
+  border: 1px solid white;
+  width: 250px;
+  margin-right: 20px;
+}
+///////////////  Gritter //////////////////////

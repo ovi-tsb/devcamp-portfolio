@@ -20,10 +20,16 @@ import 'custom/portfolios.coffee'
 
 import "@fortawesome/fontawesome-free/js/all";
 
+
 require('jquery')
 require("jquery-ui")
 require("jquery")
+require("gritter/js/jquery.gritter.js")
 require("@nathanvda/cocoon")
+
+window.jQuery = $;
+window.$ = $;
+
 
 Rails.start()
 Turbolinks.start()

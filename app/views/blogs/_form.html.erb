@@ -1,15 +1,16 @@
 <%= form_with(model: blog) do |f| %>
-  <% if blog.errors.any? %>
-    <div id="error_explanation">
-      <h2><%= pluralize(blog.errors.count, "error") %> prohibited this blog from being saved:</h2>
+  
+    <% if blog.errors.any? %>
+    
+      <% blog.errors.full_messages.each do |error| %>
 
-      <ul>
-        <% blog.errors.each do |error| %>
-          <li><%= error.full_message %></li>
-        <% end %>
-      </ul>
-    </div>
-  <% end %>
+        <%= js add_gritter(error, title: "Ovi Portfolio", :sticky => true) %>
+      
+      <% end %>
+      
+    <% end %>
+  
+    
 
   <div class="form-group">
     <%= f.text_field :title, class: "form-control" , placeholder: 'Title' %>
