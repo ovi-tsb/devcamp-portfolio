@@ -24,6 +24,7 @@ import "@fortawesome/fontawesome-free/js/all";
 require('jquery')
 require("jquery-ui")
 require("jquery")
+require("cable")
 require("gritter/js/jquery.gritter.js")
 require("@nathanvda/cocoon")
 
