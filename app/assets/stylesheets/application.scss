@@ -55,7 +55,7 @@ body {
 }
 
 .cover-container {
-  	max-width: 60em;
+  max-width: 60em;
 	min-width: 55em;
 }
 
@@ -102,6 +102,12 @@ body {
     float: right;
   }
 }
+@media (min-width: 62em) {
+  .cover-container {
+    width: 65em;
+  }
+}
+
 
 
 /*
@@ -179,8 +185,12 @@ body {
   text-shadow: 5px 1px 7px #1D2A2E;
 }
 
-.over-cover h1, h3{
-  color: #adbaed;
+.over-cover h1{
+  color: #002ed6;
+  text-align: center;
+}
+ .masthead-brand{
+  color: #00bc74;
 }
 
 ///////////////  Gritter //////////////////////
@@ -210,11 +220,19 @@ body {
 }
 
 ///////////////  Gritter //////////////////////
+///////////////  Tech tweeter page //////////////////////
+.tech-news{
+  color: #000;
+  margin: 20px;
+}
+.tech-news a{
+  color: #11dd11;
+}
+.tech-news > .card {
+  padding: 30px;
+}
 
-
-
-
-
+///////////////  Tech tweeter page //////////////////////
 
 
 
