@@ -3,6 +3,7 @@
 // a relevant structure within app/javascript and only use these pack files to reference
 // that code so it'll be compiled.
 
+
 import Rails from "@rails/ujs"
 import Turbolinks from "turbolinks"
 import * as ActiveStorage from "@rails/activestorage"
@@ -21,20 +22,24 @@ import 'custom/portfolios.coffee'
 
 import "@fortawesome/fontawesome-free/js/all";
 
+window.jQuery = $;
+window.$ = $;
 
 require('jquery')
 require("jquery-ui")
-require("jquery")
-require("cable")
+require('jquery')
+// require("cable")
 require("gritter/js/jquery.gritter.js")
 require("@nathanvda/cocoon")
 
-window.jQuery = $;
-window.$ = $;
+
 
 
 Rails.start()
 Turbolinks.start()
 ActiveStorage.start()
+
+
+
 
 
