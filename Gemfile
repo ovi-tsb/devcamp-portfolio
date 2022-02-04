@@ -47,6 +47,8 @@ gem 'gritter', '~> 1.2'
 
 gem 'twitter', '~> 7.0'
 
+gem 'redis', '~> 4.5', '>= 4.5.1'
+
 
 
 
