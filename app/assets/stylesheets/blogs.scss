@@ -22,11 +22,23 @@
 
 .blog-header-logo:hover {
   text-decoration: none;
-}
+} 
 
-h1, h2, h3, h4, h5, h6 {
-  font-family: "Playfair Display", Georgia, "Times New Roman", serif;
+body{
+  font-family: 'Lato', sans-serif;
 }
+ 
+h1, .h1,
+h2, .h2,
+h3, .h3,
+h4, .h4,
+h5, .h5,
+h6, .h6 {
+  font-family: 'Roboto', sans-serif;
+}
+// h1, h2, h3, h4, h5, h6 {
+//   font-family: "Playfair Display", Georgia, "Times New Roman", serif;
+// }
 
 .display-4 {
   font-size: 2.5rem;
@@ -204,7 +216,23 @@ h1, h2, h3, h4, h5, h6 {
 
 ///////////////  Comments //////////////////////
 
+.markdown {
+  font-style: italic;
+  font-size: .7em;
+  color: grey;
+}
 
+.breadcrumb > .pull-right{
+  margin-left: 40%;
+}
 
+.blogcrumb a{
+  font-size: 1.3em;
+  margin-right:10px;
+}
+///////////////  Nav Custom //////////////////////
+.navbar-light{
+  margin-bottom: 0px;
+}
 
-
+///////////////  Nav Custom //////////////////////

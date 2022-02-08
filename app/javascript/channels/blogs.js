@@ -80,6 +80,7 @@ $(document).on('turbolinks:load', function () {
     e.preventDefault()
     return false;
   });   
+  // alert("I am an alert box!");
 });
 
 

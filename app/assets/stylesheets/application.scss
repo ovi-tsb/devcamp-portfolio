@@ -10,6 +10,8 @@ $fa-font-path: '@fortawesome/fontawesome-free/webfonts';
 @import '@fortawesome/fontawesome-free/scss/brands';
 @import '@fortawesome/fontawesome-free/scss/v4-shims';
 
+@import "font-awesome-sprockets";
+@import "font-awesome";
 /*
  * Globals
  */
@@ -40,6 +42,8 @@ html,
 body {
   height: 100%;
   // background-color: #333;
+
+  font-family: 'Lato', sans-serif;
 }
 
 body {
@@ -52,6 +56,16 @@ body {
   color: #fff;
   text-shadow: 0 .05rem .1rem rgba(0, 0, 0, .5);
   box-shadow: inset 0 0 5rem rgba(0, 0, 0, .5);
+}
+
+h1, .h1,
+h2, .h2,
+h3, .h3,
+h4, .h4,
+h5, .h5,
+h6, .h6 {
+  
+  font-family: 'Roboto', sans-serif;
 }
 
 .cover-container {
@@ -181,8 +195,8 @@ body {
 }
 
 .over-cover p{
-  color: #fff;
-  text-shadow: 5px 1px 7px #1D2A2E;
+  // color: #fff;
+  // text-shadow: 5px 1px 7px #1D2A2E;
 }
 
 .over-cover h1{
@@ -235,5 +249,22 @@ body {
 ///////////////  Tech tweeter page //////////////////////
 
 
+.app-card-container{
+  color: #000;
+  text-align: left;
+}
+.app-card-container > .card {
+  padding: 30px;
+  background-color:rgba(255, 255, 255,0.4);
+}
+
+.card-block{
+  margin-top: 10px;
+  padding: 15px;
+}
+
+.skill{
+  margin-top: 15px;
+}
 
 

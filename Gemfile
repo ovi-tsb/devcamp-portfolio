@@ -30,6 +30,7 @@ gem 'bootstrap', '~> 5.1.3'
 gem 'petergate', '~> 3.0'
 
 gem 'font-awesome-rails', '~> 4.7', '>= 4.7.0.7'
+gem 'font-awesome-sass', '~> 5.15', '>= 5.15.1'
 
 gem 'kaminari', '~> 1.2', '>= 1.2.1'
 
@@ -48,6 +49,9 @@ gem 'gritter', '~> 1.2'
 gem 'twitter', '~> 7.0'
 
 gem 'redis', '~> 4.5', '>= 4.5.1'
+
+gem 'redcarpet', '~> 3.5', '>= 3.5.1'
+gem 'coderay', '~> 1.1', '>= 1.1.3'
 
 
 
