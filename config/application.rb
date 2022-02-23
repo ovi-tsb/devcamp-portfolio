@@ -39,6 +39,6 @@ module DevcampPortfolio
 
     config.eager_load_paths << "#{Rails.root}/lib"
     
-
+    config.autoloader = :classic
   end
 end
